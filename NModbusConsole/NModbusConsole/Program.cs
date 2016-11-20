@@ -38,7 +38,7 @@ namespace ChamberView
                 //ushort[] ReadHoldingRegisters(
                 byte slaveId = 1;
                 ushort startAddress = 300;
-                ushort value = 770;
+                ushort value = 670;
                 master.WriteSingleRegister(slaveId, startAddress, value);
                 //ushort[] holding_register = master.ReadHoldingRegisters(slaveId, startAddress, 1);
             }
